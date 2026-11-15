@@ -55,7 +55,7 @@ const STRINGS = {
     save: "Als Textdatei speichern",
     outName: "erkannter-text.txt",
     pdfHint:
-      "PDFs werden hier nicht gelesen — eine Seite zuerst in ein Bild umwandeln, dann klappt die Erkennung.",
+      "PDFs werden hier nicht gelesen, eine Seite zuerst in ein Bild umwandeln, dann klappt die Erkennung.",
     note: "Texterkennung und Sprachdaten laufen auf dem eigenen Gerät. Das Bild wird nicht hochgeladen und keine fremde Seite wird dabei aufgerufen.",
   },
   en: {
@@ -81,7 +81,7 @@ const STRINGS = {
     save: "Save as a text file",
     outName: "recognised-text.txt",
     pdfHint:
-      "PDFs are not read here — convert a page to an image first and recognition will work.",
+      "PDFs are not read here, convert a page to an image first and recognition will work.",
     note: "Recognition and the language data run on your device. The image is not uploaded and no third-party site is contacted.",
   },
 } satisfies Record<Lang, Strings>;

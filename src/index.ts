@@ -44,7 +44,7 @@ export default defineToolPack({
       premiumDefault: true,
       priceCentsDefault: 500,
       seo: {
-        title: "Etiketten drucken — Adressaufkleber als PDF",
+        title: "Etiketten drucken: Adressaufkleber als PDF",
         description:
           "Etikettenbogen selbst erzeugen: Raster wählen, Adressen einfügen, PDF drucken. Passt auf gängige Bogen und läuft ohne Installation im Browser.",
       },
@@ -62,7 +62,7 @@ export default defineToolPack({
       premiumDefault: true,
       priceCentsDefault: 500,
       seo: {
-        title: "Stundenzettel erstellen — Arbeitszeitnachweis",
+        title: "Stundenzettel erstellen: Arbeitszeitnachweis",
         description:
           "Monatlichen Stundenzettel als PDF erstellen: Zeiten eintragen, Pausen abziehen, Summen werden gerechnet. Zum Ausdrucken und Unterschreiben.",
       },
@@ -73,14 +73,14 @@ export default defineToolPack({
       name: "Texterkennung (OCR)",
       category: "content",
       description:
-        "Text aus Fotos, Screenshots und eingescannten Bildern herauslesen, auf Deutsch oder Englisch — zum Kopieren und Weiterverarbeiten.",
+        "Text aus Fotos, Screenshots und eingescannten Bildern herauslesen, auf Deutsch oder Englisch, zum Kopieren und Weiterverarbeiten.",
       icon: "scan-text",
       keywords: ["texterkennung", "ocr", "text aus bild", "texterkennung online", "scan", "foto", "abtippen"],
       component: "@tracht-digital-solutions/tds-tool-office/tools/TextRecognition.astro",
       premiumDefault: true,
       priceCentsDefault: 500,
       seo: {
-        title: "Texterkennung (OCR) online – Text aus Bild auslesen",
+        title: "Texterkennung (OCR) online: Text aus Bild auslesen",
         description:
           "Abgetippt wird nichts mehr: Texterkennung für Fotos und Bildscans, deutsch und englisch. Die Erkennung läuft auf dem eigenen Gerät, das Bild bleibt dort.",
       },

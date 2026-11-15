@@ -29,6 +29,7 @@ npm run lint:primitives         # fails on a bare control or a flex table cell
 - Ship no CSS. Every control carries a shared `tds-shared` class.
 - `component` is a package subpath resolved via `exports`. Tool `id` and `slug` stay unique.
 - Stay inside the `0.2.x` line. The site pins `^0.2.0`, and a 0.x caret is minor-locked.
+- Follows the TDS quality standard (`../tds-ops/standards/quality.md`): no AI slop, clean code.
 
 ## Topic files
 

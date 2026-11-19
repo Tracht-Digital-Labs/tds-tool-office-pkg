@@ -10,7 +10,7 @@ import {
   workedMinutes,
   type Lang,
 } from "./shared";
-import { Alert } from "@tracht-digital-solutions/tds-shared/alert";
+import { Alert } from "@tracht-digital-labs/tds-shared/alert";
 
 interface DayEntry {
   start: string;

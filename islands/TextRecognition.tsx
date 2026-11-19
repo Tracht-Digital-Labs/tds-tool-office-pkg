@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { downloadBlob, type Lang } from "./shared";
-import { FileDropZone } from "@tracht-digital-solutions/tds-shared/dropzone";
-import { Alert } from "@tracht-digital-solutions/tds-shared/alert";
+import { FileDropZone } from "@tracht-digital-labs/tds-shared/dropzone";
+import { Alert } from "@tracht-digital-labs/tds-shared/alert";
 
 type Recognised = "deu" | "eng" | "deu+eng";
 

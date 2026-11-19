@@ -1,4 +1,4 @@
-import { defineToolPack, defineTool } from "@tracht-digital-solutions/tds-tools-contract";
+import { defineToolPack, defineTool } from "@tracht-digital-labs/tds-tools-contract";
 
 /**
  * Büro: three premium tools for the paperwork a small business actually has —
@@ -23,7 +23,7 @@ export default defineToolPack({
         "Berechnet die Anfahrt von Schwarzenbek zu einer Adresse: Strecke, Fahrzeit und Kosten nach frei wählbarem Kilometerpreis, einfach oder hin und zurück.",
       icon: "map-pin",
       keywords: ["anfahrtskosten", "anfahrt", "kilometer", "fahrtkosten", "schwarzenbek", "entfernung"],
-      component: "@tracht-digital-solutions/tds-tool-office/tools/TravelCost.astro",
+      component: "@tracht-digital-labs/tds-tool-office/tools/TravelCost.astro",
       premiumDefault: false,
       seo: {
         title: "Anfahrtskosten berechnen ab Schwarzenbek",
@@ -40,7 +40,7 @@ export default defineToolPack({
         "Adressaufkleber und Etiketten als druckfertiges PDF: gängige Bogenraster, eine Zeile je Etikett, wahlweise dieselbe Angabe auf allen Feldern.",
       icon: "tags",
       keywords: ["etiketten", "aufkleber", "adressen", "avery", "herma", "drucken"],
-      component: "@tracht-digital-solutions/tds-tool-office/tools/LabelSheet.astro",
+      component: "@tracht-digital-labs/tds-tool-office/tools/LabelSheet.astro",
       premiumDefault: true,
       priceCentsDefault: 500,
       seo: {
@@ -58,7 +58,7 @@ export default defineToolPack({
         "Arbeitszeitnachweis für einen Monat als PDF: Tage, Kommen und Gehen, Pause, Tages- und Monatssumme, Feld für beide Unterschriften.",
       icon: "clock",
       keywords: ["stundenzettel", "arbeitszeit", "nachweis", "zeiterfassung", "monat"],
-      component: "@tracht-digital-solutions/tds-tool-office/tools/Timesheet.astro",
+      component: "@tracht-digital-labs/tds-tool-office/tools/Timesheet.astro",
       premiumDefault: true,
       priceCentsDefault: 500,
       seo: {
@@ -76,7 +76,7 @@ export default defineToolPack({
         "Text aus Fotos, Screenshots und eingescannten Bildern herauslesen, auf Deutsch oder Englisch, zum Kopieren und Weiterverarbeiten.",
       icon: "scan-text",
       keywords: ["texterkennung", "ocr", "text aus bild", "texterkennung online", "scan", "foto", "abtippen"],
-      component: "@tracht-digital-solutions/tds-tool-office/tools/TextRecognition.astro",
+      component: "@tracht-digital-labs/tds-tool-office/tools/TextRecognition.astro",
       premiumDefault: true,
       priceCentsDefault: 500,
       seo: {

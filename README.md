@@ -1,4 +1,4 @@
-# @tracht-digital-solutions/tds-tool-office
+# @tracht-digital-labs/tds-tool-office
 
 Office tools for the **TDS tools platform** (`tds-tools-frontend`) — the
 paperwork a small business actually has. Fully client-side; nothing is uploaded.

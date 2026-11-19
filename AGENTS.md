@@ -3,7 +3,7 @@
 Tool pack for the public tools platform with three **premium** office tools (label
 sheets, a monthly timesheet, OCR text recognition), which run fully client-side, and the free
 travel cost calculator, which asks Nominatim and OSRM when its button is pressed.
-It builds against `@tracht-digital-solutions/tds-tools-contract` and is composed into
+It builds against `@tracht-digital-labs/tds-tools-contract` and is composed into
 `tds-tools-frontend` at build time.
 
 Platform model: `tds-tools-contract-pkg/AGENTS.md`. Operator handbook:

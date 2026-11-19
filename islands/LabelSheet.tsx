@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { PDFDocument, StandardFonts, rgb } from "pdf-lib";
 import { A4, downloadPdf, mm, toWinAnsi, type Lang } from "./shared";
-import { Alert } from "@tracht-digital-solutions/tds-shared/alert";
+import { Alert } from "@tracht-digital-labs/tds-shared/alert";
 
 /** One label grid on an A4 sheet. All measurements in millimetres. */
 export interface Preset {
